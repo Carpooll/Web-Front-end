@@ -1,10 +1,23 @@
+# Steps to start developing on this project
+
+## First step - clone the repository
+'git clone url'
+
+## Second step - install react
+'npm install'
+
+## Third step - intall dependecies we need to start developing
+'npm install bootstrap react-router-dom @babel/core@^7.13.0'
+
+## Fourth step - try to fix vulnerabilities
+'npm audit fix'
+
+## Fifth step - run react to check that it works
+'npm start'
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Dependecies we need to start developing
-
-npm install bootstrap react-router-dom @babel/core@^7.13.0
 
 ## Available Scripts
 
