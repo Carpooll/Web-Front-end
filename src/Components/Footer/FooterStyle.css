@@ -39,7 +39,7 @@
 .FooterLink {
   color: #fff;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 15px;
   text-decoration: none;
 }
 .FooterLink:hover{
@@ -48,14 +48,18 @@
 }
 
 
-.Heading{
-  font-size: 24px;
-  color: #fff;
-  margin-bottom: 40px;
-  font-weight: bold;
-}
-
 .img{
   width: 20px;
   margin-left: 15px;
+  margin-top: -4px;
+}
+
+.logo{
+  width: 55px;
+  margin-left: 50px;
+}
+
+.SocialMedia__title{
+  margin-top: -4px;
+  color: #fff;
 }
