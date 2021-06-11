@@ -2,7 +2,6 @@
 .Offer__section_passenger{
     width: 100%;
     background-color: #0081A7;
-
 }
 
 .Offer__section_passenger img{
@@ -41,8 +40,7 @@
 /* Driver */
 .Offer__section_driver{
     width: 100%;
-    background-color: #0081A7;
-
+    background-color: #00AFB9;
 }
 
 .Offer__section_driver img{

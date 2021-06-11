@@ -7,8 +7,8 @@ class OfferSection extends React.Component{
         return(
             <React.Fragment>
                 <div className="container-fluid">
-                    <div className="row Offer__section_passenger">
-                        <div className="col col-lg-6 d-flex justify-content-end" >
+                    <div className="row Offer__section_passenger d-flex justify-content-center">
+                        <div className="col col-lg-4" >
                             <img src="https://mexico.didiglobal.com/wp-content/uploads/sites/5/2020/06/Driver.png" alt="" className="rounded-circle"/>
                         </div>
                         <div className="col col-lg-4 Offer__section_passenger_text">
@@ -27,8 +27,9 @@ class OfferSection extends React.Component{
                     </div>
                 </div>
 
+
                 <div className="container-fluid">
-                    <div className="row Offer__section_driver">
+                    <div className="row Offer__section_driver d-flex justify-content-center">
                         <div className="col col-lg-4 Offer__section_driver_text">
                             <h1>Driver</h1>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur incidunt facere odit voluptatibus 
@@ -42,8 +43,8 @@ class OfferSection extends React.Component{
                                 commodi sit, minima sequi praesentium cum?</p>
                             <button className="btn_driver">BECOME A DRIVER</button>
                         </div>
-                        <div className="col col-lg-6 d-flex justify-content-end" >
-                            <img src="https://mexico.didiglobal.com/wp-content/uploads/sites/5/2020/06/Driver.png" alt="" className="rounded-circle"/>
+                        <div className="col col-lg-4" >
+                            <img src="https://mexico.didiglobal.com/wp-content/uploads/sites/5/2020/06/chica-rider.jpg" alt="" className="rounded-circle"/>
                         </div>
                     </div>
                 </div>
