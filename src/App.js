@@ -8,7 +8,7 @@ function App() {
   return (
       <BrowserRouter>
           <Switch>
-            <Route exact path="/security" component={Security}></Route>
+            <Route exact path="/Security" component={Security}></Route>
           </Switch>
       </BrowserRouter>
   );
