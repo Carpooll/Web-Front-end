@@ -1,0 +1,28 @@
+body{
+    width: 100%;
+    background-color: black;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+
+    /*font styles*/
+    font-size: 64px;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-kerning: normal;
+    color: white;
+}
+
+p{
+    padding: 0;
+    margin: 0%;
+
+    /*font styles*/
+    font-size: 25px;
+    font-family: 'Chathura', sans-serif;
+    font-variant: small-caps; 
+    font-kerning: none;
+    color: white;
+}
