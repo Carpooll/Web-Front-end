@@ -1,10 +1,11 @@
-.Offer__section{
+/* Passenger */
+.Offer__section_passenger{
     width: 100%;
     background-color: #0081A7;
-    position: absolute;
+
 }
 
-.Offer__section img{
+.Offer__section_passenger img{
     margin-top: 25px;
     margin-bottom: 25px;
     display: flex;
@@ -13,13 +14,13 @@
     border: solid seashell 3px;
 }
 
-.Offer__section_text{
+.Offer__section_passenger_text{
     padding-top: 35px;
     padding-bottom: 40px;
     color: white;
 }
 
-.Offer__section_text h1{
+.Offer__section_passenger_text h1{
     margin-bottom: 25px;
 }
 
@@ -36,3 +37,45 @@
 .btn_passenger:hover{
     background-color:#FDC087;
 }
+
+/* Driver */
+.Offer__section_driver{
+    width: 100%;
+    background-color: #0081A7;
+
+}
+
+.Offer__section_driver img{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    border: solid seashell 3px;
+}
+
+.Offer__section_driver_text{
+    padding-top: 35px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.Offer__section_driver_text h1{
+    margin-bottom: 25px;
+}
+
+.btn_driver{
+    padding:0.6em 2em;
+    border-radius: 8px;
+    color:#fff;
+    background-color:#F07167;
+    font-size:1.1em;
+    border:0;
+    cursor:pointer;
+}
+
+.btn_driver:hover{
+    background-color:#FDC087;
+}
+
+
