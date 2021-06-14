@@ -5,6 +5,7 @@ class Contact extends React.Component {
     render() {
         return (
             <React.Fragment>
+               
                 <div className="Main">
                     <div className="Main__content">
                         <div className="container">
@@ -19,8 +20,9 @@ class Contact extends React.Component {
                             
                         </div>
                     </div>
-                    <Hero h={"45vh"}></Hero>
+                    <Hero h={"50vh"}></Hero>
                 </div>
+                
             </React.Fragment>
         )
     }

@@ -7,7 +7,7 @@ const Hero = props =>{
             <div className="Hero">
 
                 <div className="Hero__image" style={{height:props.h}}>
-                    <img src="https://as.com/deporteyvida/imagenes/2018/02/28/portada/1519830649_122505_1519830777_noticia_normal.jpg" alt="" />
+                    <img src="https://images.pexels.com/photos/260689/pexels-photo-260689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
                 </div>
             </div>
         </React.Fragment>
