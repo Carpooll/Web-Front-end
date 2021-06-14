@@ -1,8 +1,15 @@
+body{
+  background-color:black
+}
+
 .Navbar {
     text-align:center;
     height: 60px;
     width: 100%;
-    border-bottom: 1px solid black;   
+    border-bottom: 1px solid black;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px; 
+    background-color:white  
 }
 .Navbar__title{
   float: left;
@@ -11,7 +18,9 @@
   font-size: 18px;
 }
 
-
+.last{
+  border-bottom-right-radius:25px
+}
 .Navbar__img{
   border-right: 1px solid black;
   float: left;
@@ -25,6 +34,7 @@
 .Navbar__element{
   border:3px solid gray;
   background-color:black;
+  
 }
 
 .Navbar__element p{
@@ -35,5 +45,4 @@
 .Navbar__elements{
   float: right;
   display: flex;
-;
 }

@@ -30,7 +30,7 @@ class Navbar extends React.Component{
                                 <p>About</p>
                             </Link>
                         </div>
-                        <div className="Navbar__element">
+                        <div className="Navbar__element last">
                             <Link to="/">
                                 <p>Contact</p>
                             </Link>
