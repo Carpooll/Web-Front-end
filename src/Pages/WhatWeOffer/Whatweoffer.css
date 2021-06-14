@@ -1,7 +1,38 @@
+/* Image */
+.Hero{
+    width: 100%;
+}
+
+.Hero__img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 10vh;
+}
+
+.Hero__color_filter{
+    position: absolute;
+    background-color: rgba(5, 5, 5, 0.5);
+    width: 100%;
+    height: 10vh;
+    z-index: 1;
+}
+
+.Offer__title{
+    position: absolute;
+    transform: translate(1%, 1%);
+    z-index: 2;
+    color: white;
+}
+
+
 /* Passenger */
 .Offer__section_passenger{
     width: 100%;
     background-color: #0081A7;
+    position: relative;
 }
 
 .Offer__section_passenger img{
@@ -41,6 +72,7 @@
 .Offer__section_driver{
     width: 100%;
     background-color: #00AFB9;
+    position: relative;
 }
 
 .Offer__section_driver img{
