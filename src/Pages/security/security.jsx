@@ -8,7 +8,7 @@ class Security extends React.Component {
       <React.Fragment>
         <div className="top">
           <h1>security</h1>
-          <img src="https://i.imgur.com/65dQw2F.png" alt="cab" />
+          <img src="https://i.imgur.com/65dQw2F.png" alt="cab"/>
         </div>
 
         <div className="text-gp">
