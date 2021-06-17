@@ -1,25 +1,28 @@
-body{
-  background-image: url("https://images.pexels.com/photos/911738/pexels-photo-911738.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") ;
+body:before{
+  filter: blur(1px);
+  content: "";
+  position: absolute;
+  height: 20%; 
+  width: 20%;
+  background-size: cover;
+  z-index: -1;
+  -webkit-transform: scale(5);
+  -webkit-transform-origin: top left;
+  background-image: url("https://images.pexels.com/photos/1044329/pexels-photo-1044329.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") ;
   
+
 }
 
-.Header__title{
-  color: #0081A7;
-  font-size: 150px;
-  font-family: 'Courier New';
-  text-align: center;
-  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
-}
 
-.card {
+.Card {
   width: 300px;
   height: 400px;
-  margin: 0 auto;
+  margin-top: 50%;
   border-radius: 15px !important;
   border-color: black !important;
   border: 15px !important;
-  box-shadow: 0 20px 70px rgba(0, 0, 0, 0.6);
-  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.5)) !important;
+  box-shadow: 0 20px 70px rgba(255, 255, 255, 0.2);
+  filter: drop-shadow(0 10px 20px rgba(255, 255, 255, 0.5)) !important;
 }
 .face {
   position: absolute;
