@@ -1,18 +1,15 @@
 import  React from "react";
 import "./AboutStyle.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 class About extends React.Component{
     render(){
         return(
             <React.Fragment>
                 <div className="container">
-                    <div className="row mt-4">
-                        <h1 className="Header__title">About us</h1>
-                    </div>
-                    <div className="row mt-4">
-                        <div className="col-4">
-                            <div className="card">
+                    <div className="row">
+                        <div className="col-lg-4">
+                            <div className="card Card">
                                 <div className="face face1">
                                     <div className="content">
                                     <h2 className="about">Us</h2>
@@ -25,8 +22,8 @@ class About extends React.Component{
                             </div>
 
                         </div>
-                        <div className="col-4">
-                            <div className="card">
+                        <div className="col-lg-4">
+                            <div className="card Card">
                                 <div className="face face1">
                                     <div className="content">
                                     <span className="stars"></span>
@@ -40,8 +37,8 @@ class About extends React.Component{
                             </div>
 
                         </div>
-                        <div className="col-4">
-                            <div className="card">
+                        <div className="col-lg-4">
+                            <div className="card Card">
                                 <div className="face face1">
                                     <div className="content">
                                     <span className="stars"></span>
