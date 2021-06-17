@@ -1,39 +1,48 @@
 import React from "react";
 import "./FooterStyle.css";
+import Facebook from "../../images/facebook.png"
+import Instagram from "../../images/instagram.png"
+import Twitter from "../../images/twitter.png"
+import Playstore from "../../images/playstore.png"
+import Logo from "../../images/taxi.png"
 
 const Footer = () => {
     return (
         <div className="Box">
-            <h1 className="Title"> CARPOOL 2021 </h1>
-            <div className="Container">
-                <div className="Row">
-                    <div className="Column">
-                        <a className="FooterLink" href="">Legal notices </a>
-                        <a className="FooterLink" href="">Terms and conditions</a>
-                    </div>
-                    <div className="Column">
-                        <a className="FooterLink" href="">About us</a>
-                        <a className="FooterLink" href="">Security </a>
-                    </div>
-                    <div className="Column">
-                        <a className="FooterLink" href="">Contact </a>
-                        <a className="FooterLink" href="">FAQ </a>
-                    </div>
-                    <div className="Column">
-                        <h5 className="SocialMedia__title">Social media</h5>
-                        <div className="Row2">
-                            <a className="FooterLink col-4" href="FooterLink"><img className="img" src="https://image.flaticon.com/icons/png/512/1384/1384063.png" alt="Instagram" /></a>
-                            <a className="FooterLink col-4" href="FooterLink"><img className="img" src="https://image.flaticon.com/icons/png/512/733/733547.png" alt="Facebook" /></a>
-                            <a className="FooterLink col-4" href="FooterLink"><img className="img" src="https://image.flaticon.com/icons/png/512/220/220233.png" alt="Twitter" /></a> 
-                            <a className="FooterLink col-4" href="FooterLink"><img className="img" src="https://image.flaticon.com/icons/png/512/732/732208.png" alt="Google play" /></a>
+            <div className="Container ">
+                <div className="row">
+                    <div className="col-8">
+                        <div className="row">
+                            <div className="col">
+                                <a className="FooterLink" href="">Legal notices </a>
+                                <div className="row">
+                                    <a className="FooterLink" href="">Terms and conditions</a>
+                                </div>
+                            </div>
+                            <div className="col">
+                                <a className="FooterLink" href="">About us</a>
+                                <div className="row">
+                                    <a className="FooterLink" href="">Security </a>
+                                </div>
+                            </div>
+                            <div className="col">
+                                <a className="FooterLink" href="">Contact </a>
+                                <div className="row">
+                                    <a className="FooterLink" href="">FAQ </a>
+                                </div>
+                            </div>
+                            <div className="col mt-3">
+                                <a className="FooterLink" href="FooterLink"><img className="img" src={Facebook} alt="Facebook" /></a>
+                                <a className="FooterLink" href="FooterLink"><img className="img" src={Instagram} alt="Facebook" /></a>
+                                <a className="FooterLink" href="FooterLink"><img className="img" src={Twitter} alt="Twitter" /></a> 
+                                <a className="FooterLink" href="FooterLink"><img className="img" src={Playstore} alt="Google play" /></a>
+
+                            </div>
                         </div>
                     </div>
-
-                    <div className="Column">
-                        <img className="logo" src="https://image.flaticon.com/icons/png/512/2898/2898674.png" alt="Carpool icon" />
+                    <div className="col mt-3">
+                        <h1 className="Title" >CARPOOL 2021<a href=""><img className="logo" src={Logo} alt="" /></a></h1>
                     </div>
-
-
                 </div>
             </div>
         </div>
