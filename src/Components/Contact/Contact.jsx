@@ -1,28 +1,58 @@
 import React from 'react';
 import './Contact.css';
 import Hero from '../../Components/Hero/Hero'
+import { setConfiguration } from 'react-grid-system';
+import { Container, Row, Col } from 'react-grid-system';
+setConfiguration({ maxScreenClass: 'xl' });
+
 class Contact extends React.Component {
     render() {
         return (
             <React.Fragment>
-               
-                <div className="Main">
-                    <div className="Main__content">
-                        <div className="container">
-                            <div className="content">
-                                <h1>Contacts Us!</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <div className="Contact__container">
+                    <Container>
+                        <Row>
+                            <div className="Contact__header mt-5 mb-2">
+                                <h1>Talk with us!</h1>
                             </div>
-                        </div>
-                        <div className="content__img">
-                            
-                            <img src="http://www.wrigglesolutions.com/images/contact-us.jpg" alt="" />    
-                            
-                        </div>
-                    </div>
-                    <Hero h={"50vh"}></Hero>
+                        </Row>
+                        <Row>
+                            <Col sm={4}>
+                                <div className="Contact__img">
+                                    <img src="https://api.bridge.insure/images/phone-6.jpg" alt="" />
+                                </div>
+                                <div className="Contact__text mt-2">
+                                    <p>+52 678121212</p>
+                                    <p>+52 678121212</p>
+                                    <p>+52 678121212</p>
+                                </div>
+                            </Col>
+
+                            <Col sm={4}>
+                                <div className="Contact__img">
+                                    <img src="https://img.icons8.com/wired/2x/ffffff/email.png" alt="" />
+                                </div>
+                                <div className="Contact__text mt-2">
+                                    <p>+52 678121212</p>
+                                    <p>+52 678121212</p>
+                                    <p>+52 678121212</p>
+                                </div>
+                            </Col>
+
+                            <Col sm={4}>
+                                <div className="Contact__img">
+                                    <img src="https://www.seekpng.com/png/full/14-144347_location-png-white-vector-free-library-location-icon.png" alt="" />
+                                </div>
+                                <div className="Contact__text mt-2">
+                                    <p>+52 678121212</p>
+                                    <p>+52 678121212</p>
+                                    <p>+52 678121212</p>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
                 </div>
-                
+                <Hero h={"100vh"}></Hero>
             </React.Fragment>
         )
     }

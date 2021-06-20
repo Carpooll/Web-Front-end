@@ -1,5 +1,6 @@
 .Hero{
     width:100%;
+    height:100%;
 }
 
 .Hero__image {
@@ -13,7 +14,7 @@
 
 .Hero__filter{
     position: absolute;
-    background-color: rgba(99, 11, 87, 0.6);
+    background-color: rgba(7, 76, 97, 0.5);
     width: 100%;
     z-index: 1;
 }
