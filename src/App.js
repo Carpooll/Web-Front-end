@@ -1,12 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import Footer from './Components/Footer/Footer'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react"
+import { BrowserRouter, Route, Switch} from "react-router-dom"
+import Layout from "./Pages/layout/layout";
+import Main from "./Pages/Main/Main"
 
 function App() {
-  return (
-      <Footer></Footer>
-    
+  return ( 
+  <BrowserRouter>
+    <Layout>
+      <Switch>
+        <Route exact path="/" component={Main}></Route>
+      </Switch>
+    </Layout>
+  </BrowserRouter>  
+
   );
 }
 
