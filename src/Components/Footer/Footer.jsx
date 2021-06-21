@@ -1,10 +1,5 @@
 import React from "react";
 import "./FooterStyle.css";
-import Facebook from "../../images/facebook.png"
-import Instagram from "../../images/instagram.png"
-import Twitter from "../../images/twitter.png"
-import Playstore from "../../images/playstore.png"
-import Logo from "../../images/taxi.png"
 
 const Footer = () => {
     return (
@@ -32,16 +27,16 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className="col mt-3">
-                                <a className="FooterLink" href="FooterLink"><img className="img" src={Facebook} alt="Facebook" /></a>
-                                <a className="FooterLink" href="FooterLink"><img className="img" src={Instagram} alt="Facebook" /></a>
-                                <a className="FooterLink" href="FooterLink"><img className="img" src={Twitter} alt="Twitter" /></a> 
-                                <a className="FooterLink" href="FooterLink"><img className="img" src={Playstore} alt="Google play" /></a>
+                                <a className="FooterLink" href="FooterLink"><img className="img" src="https://image.flaticon.com/icons/png/512/1051/1051360.png" alt="Facebook" /></a>
+                                <a className="FooterLink" href="FooterLink"><img className="img" src="https://image.flaticon.com/icons/png/512/1051/1051360.png" alt="Facebook" /></a>
+                                <a className="FooterLink" href="FooterLink"><img className="img" src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/twitter-icon-18-256.png" alt="Twitter" /></a> 
+                                <a className="FooterLink" href="FooterLink"><img className="img" src="https://image.flaticon.com/icons/png/512/1051/1051360.png" alt="Google play" /></a>
 
                             </div>
                         </div>
                     </div>
                     <div className="col mt-3">
-                        <h1 className="Title" >CARPOOL 2021<a href=""><img className="logo" src={Logo} alt="" /></a></h1>
+                        <h1 className="Title" >CARPOOL 2021<a href=""><img className="logo" src="https://www.darwinchambers.com/wp-content/uploads/demo-img.jpg" alt="" /></a></h1>
                     </div>
                 </div>
             </div>

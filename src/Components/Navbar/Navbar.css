@@ -10,6 +10,7 @@
   position: relative;
   z-index: 1;
   width: 100%;
+  margin-top: 17px;
 }
 
 .Navbar {
@@ -38,21 +39,13 @@
 
 .Navbar__element a{
   text-decoration: none;
-  color:white;
+  color:rgba(245, 245, 245, 0.637);
   position: relative;
   overflow: hidden;
   display: inline-block;
   text-decoration: none;
-  color: white;
 }
 
-.Navbar__element a {
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
-  text-decoration: none;
-  color: white;
-  }
   .Navbar__element a:after {
   content: "";
   position: absolute;
@@ -63,8 +56,14 @@
   background: white;
   transition: left .8s;
   }
+  .Navbar__element a:hover {
+    color: white;
+    transition: 200ms ease-in;
+
+  }
+
   .Navbar__element a:hover:after {
-  left: 0;
+    left: 0;
   }
 
 .Navbar__element p{
