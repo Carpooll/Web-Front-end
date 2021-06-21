@@ -7,7 +7,7 @@ import Home_2 from "./pages/home_2/home_2";
 function App() {
   return (
     <BrowserRouter>
-      <Home></Home>
+      <Faq> </Faq>
     </BrowserRouter>
   );
 }

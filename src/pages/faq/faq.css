@@ -1,18 +1,15 @@
 .QT {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    font-family: 'Comfortaa', cursive;
     background-color: white;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.719);
-    border-radius: 17px;
     margin-left: 2%;
 }
-.back{
-    background-color: turquoise;
-    background-image: url("https://images8.alphacoders.com/458/thumb-1920-458112.jpg");
+.QT h5{
+    font-size: 30px;
 }
 
 .indice{
+    
     margin-left: 40%;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.719);
+    margin-bottom: 10px;
+    border-radius: 17px;
 }

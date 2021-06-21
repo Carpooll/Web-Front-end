@@ -16,7 +16,7 @@ class Home extends React.Component{
                                 
                                 <div className="imagen_c" style={{height: "70vh"}}>
                                     <img
-                                        src="https://fondosmil.com/fondo/50457.jpg"
+                                        src="https://i.pinimg.com/originals/07/b5/5e/07b55e4038516321f44d458c9eaf3a3c.jpg"
                                         alt="First slide"
                                     />
                                 </div>
