@@ -5,7 +5,7 @@ class Navbar extends React.Component{
     render(){
         return(
             <React.Fragment>
-                <div className="Navbar">
+                <div className="Navbar fixed-top">
                     <div className="Navbar__filter">
                         <div className="Navbar__content">
                             <div className="Navbar__img">

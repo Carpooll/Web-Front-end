@@ -1,13 +1,12 @@
-.Navbar__filter{
+/* .Navbar__filter{
   height:30vh;
   width: 100%;
   position: absolute;
   z-index: 2;
-}
+} */
 
 .Navbar__content{
   position: relative;
-  z-index: 1;
   width: 100%;
   margin-top: 17px;
 }
@@ -17,7 +16,7 @@
   height: 60px;
   width: 100%;
   position: absolute;
-  z-index: 3; 
+  z-index: 10; 
 }
 .Navbar__title{
   position: absolute;

@@ -1,10 +1,10 @@
 import React from "react"
 import { BrowserRouter, Route, Switch} from "react-router-dom"
-import Layout from "./Pages/layout/layout";
+import Layout from "./Pages/Layout/Layout";
 import Main from "./Pages/Main/Main"
-import Home from './Pages/Home/home'
-import Faq from './Pages/faq/faq'
-import Home_2 from "./Pages/home_2/home_2";
+import Home from './Pages/Home/Home'
+import Faq from './Pages/Faq/Faq'
+import Home_2 from "./Pages/Home_2/Home_2";
 
 function App() {
   return ( 

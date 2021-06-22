@@ -1,14 +1,11 @@
 import React from "react";
 import "./Home.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
-
 
 class Home extends React.Component{
     render(){
         return(
             <React.Fragment>
-                
                 <div className="all_c">
                     <div className="Carru">
                         <Carousel>
@@ -56,8 +53,8 @@ class Home extends React.Component{
                     </div>  
                 </div>
                 <div className="title_1">
-                    <div class="card mt-10">
-                        <div class="card-header">
+                    <div className="card mt-10">
+                        <div className="card-header">
                             <h1>Title</h1>
                         </div>
                         <p>mucho texto xd</p>

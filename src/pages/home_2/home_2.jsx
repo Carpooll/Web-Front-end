@@ -1,7 +1,5 @@
 import React from "react";
 import "./Home_2.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Hero from "../hero/hero" 
 class Home_2 extends React.Component{
     render(){
         return(
@@ -13,7 +11,7 @@ class Home_2 extends React.Component{
                 </div>
                <div className="title_1">
                     <div>
-                        <h1>From student to student. travel comfortably. travel safely</h1>
+                        <h1>From student to student. Travel comfortably. Travel safely.</h1>
                     </div>
                     <div class="container">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culp</p>
