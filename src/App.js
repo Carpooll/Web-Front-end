@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Switch} from "react-router-dom"
-import OfferSection from "./Pages/WhatWeOffer/Whatweoffer";
+import OfferSection from "./Pages/Whatweoffer/Whatweoffer";
 import './App.css';
 
 function App() {
