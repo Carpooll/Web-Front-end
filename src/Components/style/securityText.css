@@ -11,7 +11,7 @@
 
 body{
     width: 100%;
-    background-color: black;
+    /* background-color: black; */
 }
 
 h2{
@@ -23,7 +23,7 @@ h2{
     font-weight: bolder;
     font-variant: small-caps;
     font-kerning: normal;
-    color: white;
+    /* color: white; */
 }
 
 p{
@@ -34,7 +34,7 @@ p{
     /* font-size: 25px; */
     font-variant: small-caps; 
     font-kerning: none;
-    color: white;
+    /* color: white; */
 }
 
 .container{
