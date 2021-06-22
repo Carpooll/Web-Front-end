@@ -1,17 +1,20 @@
-/* @media(max-width: 480px){
-    body{
-        background-color: red;
-    }
-} */
+@media(max-width: 800px){
 
-/* @media(min-width: 980px){ */
     body{
         height: 100%;
-        /* padding: 1%; */
+    }
+    
+    h2{
+        font-size: 36px;
+    }
+    
+    p{
+        font-size: 20px;
     }
     
     .top img{
         width: 100%;
+        /* height: 20em; */
         margin-bottom: 1em;
         /* height: 30%; */
     }
@@ -21,25 +24,26 @@
         position: absolute;
     
         font-style: normal;
-        font-weight: 800;
-        /* text-align: right; */
-        letter-spacing: 0.9em;
+        letter-spacing: 0.3em;
         text-transform: uppercase;
     
-        color: white;
-    
         display: flex;
-        align-items: right;
+        align-items: flex-end;
+        justify-content: right;
     
-        margin-left: 70%;
-        margin-right: 0;
+        /* margin-left: 50%; */
+        /* margin-right: 10%; */
+        margin-top: 20%;
+    
+        font-size: 48px;
+        color: white;
     }
     
     .text-gp{
         /* position: absolute; */
-        margin: 30px;
+        /* margin: 30px; */
         margin-top: 0;
-        display: flex;
+        /* display: flex; */
     }
     
     .top{
@@ -48,4 +52,72 @@
     
         width: 100%;
     }
-/* } */
+    
+    .quote{
+        margin-top: 5%;
+        display: block;
+        justify-content: center;
+    }
+}
+
+@media(min-width: 800px){
+    body{
+        height: 100%;
+        /* padding: 1%; */
+    }
+    
+    h2{
+        font-size: 36px;
+    }
+    
+    p{
+        font-size: 20px;
+        text-transform: none;
+    }
+    
+    .top img{
+        width: 100%;
+        /* height: 25em; */
+        margin-bottom: 1em;
+    }
+
+    .top h1{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+        font-style: normal;
+        font-weight: 800;
+        letter-spacing: 0.9em;
+        text-transform: uppercase;
+    
+        display: flex;
+        justify-content: left;
+        margin-top: 30%;
+    
+        margin-top: 20%;
+    
+        font-size: 48px;
+        color: white;
+    }
+    
+    .text-gp{
+        display: flex;
+    }
+    
+    .quote{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        position: absolute;
+        line-height: 54px;
+        text-align: center;
+        letter-spacing: 0.04em;
+    }
+
+    .quote h2{
+        margin-top: 3%;
+    }
+
+}
