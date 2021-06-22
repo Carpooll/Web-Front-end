@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
     return (
-        <div className="Box">
+        <div className="Box fixed-bottom">
             <div className="Container ">
                 <div className="row">
                     <div className="col-8">

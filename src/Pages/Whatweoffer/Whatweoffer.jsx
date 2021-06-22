@@ -24,7 +24,7 @@ class OfferSection extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="container-fluid Background__img_passenger text-white ">
+                <div className="container-fluid Background__img_passenger text-white">
                     <div className="Color_filter_passenger"></div>
                     <div className="row">
                         <div className="col-lg-7 col-sm-10  Offer__text_passenger pb-5 pt-5">
