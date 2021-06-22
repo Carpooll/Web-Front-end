@@ -1,0 +1,19 @@
+.QT {
+    font-family: 'Comfortaa', cursive;
+    margin-left: 2%;
+}
+.QT h5{
+    font-size: 30px;
+}
+
+.indice{
+    
+    margin-left: 40%;
+    margin-bottom: 10px;
+    border-radius: 17px;
+}
+
+.overposition_filter{
+    position: relative;
+    z-index: 4;
+}

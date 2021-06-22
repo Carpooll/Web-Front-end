@@ -1,6 +1,5 @@
 .Navbar__filter{
-  background-image:linear-gradient(rgba(0, 129, 167, 1),white);
-  height:50vh;
+  height:30vh;
   width: 100%;
   position: absolute;
   z-index: 2;
@@ -17,7 +16,8 @@
   text-align:center;
   height: 60px;
   width: 100%;
-  z-index: 1; 
+  position: absolute;
+  z-index: 3; 
 }
 .Navbar__title{
   position: absolute;
