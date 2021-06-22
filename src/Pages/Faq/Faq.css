@@ -1,0 +1,16 @@
+.QT {
+    font-family: 'Comfortaa', cursive;
+}
+.QT h5{
+    font-size: 30px;
+}
+
+.indice{
+    margin-left: 40%;
+    margin-bottom: 10px;
+    border-radius: 17px;
+}
+
+.m-top{
+    margin-top: 85px !important;
+}
