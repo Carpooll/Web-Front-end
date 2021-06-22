@@ -8,8 +8,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
-    
 }
 
 .Hero__filter{
@@ -17,4 +15,5 @@
     background-color: rgba(7, 76, 97, 0.5);
     width: 100%;
     z-index: 1;
+    overflow: hidden;
 }
