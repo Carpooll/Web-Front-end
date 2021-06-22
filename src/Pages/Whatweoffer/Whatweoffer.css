@@ -1,0 +1,90 @@
+/* Driver */
+.Background__img_driver{
+    background-image: url('https://i.imgur.com/6MfzgJ3.jpeg');
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 50vh;
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   }
+
+.btn_driver{
+    top: 50%;
+    left: 50%;
+    background-color:#F07167;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 4;
+}
+
+.btn_driver:hover{
+    background-color:#FDC087;
+}
+
+.Color_filter_driver{
+    position: absolute;
+    background-color: rgba(5, 5, 5, 0.2);
+    width: 100%;
+    height: 50vh;
+    z-index: 2;
+}
+
+.Offer__text_driver{
+     text-align: right;
+     z-index: 3;
+}
+/* Passenger */
+.Background__img_passenger{
+    background-image: url('https://i.imgur.com/q21NJ2F.jpeg');
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 50vh;
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   }
+
+.btn_passenger{
+    top: 50%;
+    left: 50%;
+    background-color:#F07167;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 4;
+}    
+
+.btn_passenger:hover{
+    background-color:#FDC087;
+}    
+
+.Color_filter_passenger{
+    position: absolute;
+    background-color: rgba(5, 5, 5, 0.5);
+    width: 100%;
+    height: 50vh;
+    z-index: 2;
+}
+
+.Offer__text_passenger{
+    text-align: left;
+    z-index: 3;
+}
