@@ -1,12 +1,12 @@
 import React from "react"
 import { BrowserRouter, Route, Switch} from "react-router-dom"
-import Main from '../src/Pages/Main/Main'
+import Contact from '../src/Pages/Contact/Contact'
 
 function App() {
   return ( 
   <BrowserRouter>
     <Switch>
-      <Route exact path="/" component={Main}></Route>
+      <Route exact path="/contact" component={Contact}></Route>
     </Switch>
   </BrowserRouter>  
   );
