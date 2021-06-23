@@ -6,8 +6,9 @@ import Home from './Pages/Home/Home'
 import Faq from './Pages/Faq/Faq'
 import Home_2 from "./Pages/Home_2/Home_2";
 import OfferSection from "./Pages/Whatweoffer/Whatweoffer";
-import './App.css';
 import About from './Pages/About/About';
+import Contact from './Pages/Contact/Contact'
+import './App.css';
 
 function App() {
   return ( 
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/faq" component={Faq}></Route>
         <Route exact path="/whatweoffer" component={OfferSection}></Route>
         <Route exact path="/about" component={About}></Route>
+        <Route exact path="/contact" component={Contact}></Route>
       </Switch>
     </Layout>
   </BrowserRouter>  
