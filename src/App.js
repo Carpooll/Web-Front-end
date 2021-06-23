@@ -8,6 +8,7 @@ import Home_2 from "./Pages/Home_2/Home_2";
 import OfferSection from "./Pages/Whatweoffer/Whatweoffer";
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact'
+import Security from "./Pages/Security/Security"
 import './App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/whatweoffer" component={OfferSection}></Route>
         <Route exact path="/about" component={About}></Route>
         <Route exact path="/contact" component={Contact}></Route>
+        <Route exact path="/security" component={Security}></Route>
       </Switch>
     </Layout>
   </BrowserRouter>  
