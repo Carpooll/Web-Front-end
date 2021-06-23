@@ -1,5 +1,5 @@
 import React from "react";
-import SecurityText from "../../Components/SecurityText";
+import SecurityText from "../../Components/SecurityText/SecurityText";
 import "./Security.css";
 
 class Security extends React.Component {
