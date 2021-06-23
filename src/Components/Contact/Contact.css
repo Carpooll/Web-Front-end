@@ -1,0 +1,40 @@
+
+.Contact__container{
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    z-index: 2;
+}
+.Contact__content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contact__img{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.Contact__text{
+    margin:auto;
+    text-align:center;
+}
+.Contact__text p{
+    color:white;
+}
+.Contact__img img{
+    height: 150px;
+}
+
+.Contact__header{
+    display: flex;
+    justify-content: center;
+    column-span:all;
+    margin:auto;
+    text-align:center;
+}
+
+.Contact__header h1{
+    color:white;
+}
