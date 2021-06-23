@@ -55,11 +55,6 @@
   box-sizing: border-box;
   padding: 20px;
 }
-h2 {
-  margin: 0;
-  padding: 0;
-  font-family: 'Courier New';
-}
 
 .about, .mission, .vision{
   color: black;
@@ -69,26 +64,21 @@ h2 {
 .face2 {
   transition: 0.5s;
 }
+
 h2 {
   margin: 0;
   padding: 0;
-  font-size: 10em;
   color: #fff;
   transition: 0.5s;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   z-index: 10;
-  font-family: 'Courier New';
+  
 }
 
 
 .card:hover .face.face2 {
   height: 60px;
 }
-  h2 {
-    font-size: 2em;
-    font-family: 'Courier New';
-  }
-
 
 .card:nth-child(1) .face.face2 {
   background: black;
