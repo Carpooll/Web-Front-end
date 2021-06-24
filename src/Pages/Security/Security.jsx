@@ -16,7 +16,7 @@ class Security extends React.Component {
           <SecurityText></SecurityText>
         </div>
         <div className="quote">
-          <h2>WE CARE ABOUT YOU</h2>
+          <h2 className="text-center">WE CARE ABOUT YOU</h2>
         </div>
       </React.Fragment>
     );
