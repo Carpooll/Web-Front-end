@@ -7,11 +7,10 @@ class About extends React.Component{
         return(
             <React.Fragment>
                 <div className="backimage"></div>
-                <div className="container">
+                <div className="container-fluid">
                     <div className="abs-container">
-
                         <div className="row">
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 center">
                                 <div className="card Card">
                                     <div className="face face1">
                                         <div className="content">
@@ -25,7 +24,7 @@ class About extends React.Component{
                                 </div>
 
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 center">
                                 <div className="card Card">
                                     <div className="face face1">
                                         <div className="content">
@@ -40,7 +39,7 @@ class About extends React.Component{
                                 </div>
 
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 center">
                                 <div className="card Card">
                                     <div className="face face1">
                                         <div className="content">
