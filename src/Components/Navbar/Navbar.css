@@ -4,6 +4,12 @@
   position: absolute;
   z-index: 2;
 } */
+.navbar-logo{
+  width: 9vh;
+}
+.navbar {
+  background-color: #0080a72f !important;
+}
 
 .Navbar__content{
   position: relative;
