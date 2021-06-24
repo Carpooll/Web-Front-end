@@ -27,10 +27,10 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className="col mt-3">
-                                <a className="FooterLink" href="FooterLink"><img className="img" src="https://image.flaticon.com/icons/png/512/1051/1051360.png" alt="Facebook" /></a>
-                                <a className="FooterLink" href="FooterLink"><img className="img" src="https://image.flaticon.com/icons/png/512/1051/1051360.png" alt="Facebook" /></a>
+                                <a className="FooterLink" href="FooterLink"><img className="img" src="https://i.imgur.com/DQ8kHdT.png" alt="Facebook" /></a>
+                                <a className="FooterLink" href="FooterLink"><img className="img" src="https://i.imgur.com/Iydxei0.png" alt="Instagram" /></a>
                                 <a className="FooterLink" href="FooterLink"><img className="img" src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/twitter-icon-18-256.png" alt="Twitter" /></a> 
-                                <a className="FooterLink" href="FooterLink"><img className="img" src="https://image.flaticon.com/icons/png/512/1051/1051360.png" alt="Google play" /></a>
+                                <a className="FooterLink" href="FooterLink"><img className="img" src="https://i.imgur.com/C1dW7vj.png" alt="Google play" /></a>
 
                             </div>
                         </div>
