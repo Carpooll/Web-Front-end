@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from '../../Components/Navbar/Navbar-responsive';
+import Navbar from '../../Components/Navbar/Navbar';
 
 class Main extends React.Component {
     render(){

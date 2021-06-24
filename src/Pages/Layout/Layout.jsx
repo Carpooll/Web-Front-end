@@ -1,6 +1,6 @@
 import React from "react"
 import './Layout.css'
-import Navbar from '../../Components/Navbar/Navbar-responsive'
+import Navbar from '../../Components/Navbar/Navbar'
 import Footer from '../../Components/Footer/Footer'
 
 function Layout(props){
