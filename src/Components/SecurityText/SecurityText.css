@@ -19,7 +19,6 @@ h2{
     padding: 0;
 
     /*font styles*/
-    /* font-size: 64px; */
     font-weight: bolder;
     font-variant: small-caps;
     font-kerning: normal;
@@ -30,8 +29,6 @@ p{
     margin: 0;
     padding: 0;
 
-    /*font styles*/
-    /* font-size: 25px; */
     font-variant: small-caps; 
     font-kerning: none;
     /* color: white; */
