@@ -1,17 +1,5 @@
-/* Includes light300 and Bold700 */
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap');
-
-:root{
-    --blue: #0081A7;
-}
-
-* {
-    font-family: 'Comfortaa', cursive;
-}
-
 body{
     width: 100%;
-    /* background-color: black; */
 }
 
 h2{
@@ -23,7 +11,9 @@ h2{
     font-weight: bolder;
     font-variant: small-caps;
     font-kerning: normal;
-    /* color: white; */
+    color: black;
+    text-shadow: none;
+
 }
 
 p{
