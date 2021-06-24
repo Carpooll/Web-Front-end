@@ -4,6 +4,12 @@
   position: absolute;
   z-index: 2;
 } */
+.navbar-logo{
+  width: 9vh;
+}
+.navbar {
+  background-color: #0080a72f !important;
+}
 
 .Navbar__content{
   position: relative;
@@ -17,6 +23,7 @@
   width: 100%;
   position: absolute;
   z-index: 10; 
+  display:flex !important;
 }
 .Navbar__title{
   position: absolute;
@@ -70,7 +77,6 @@
 }
 
 .Navbar__elements{
-  float: right;
-  display: flex;
-  margin-right: 5%;
+  text-align:justify;
 }
+
