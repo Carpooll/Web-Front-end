@@ -36,7 +36,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="col mt-3">
-                        <h1 className="Title" >CARPOOL 2021<a href=""><img className="logo" src="https://www.darwinchambers.com/wp-content/uploads/demo-img.jpg" alt="" /></a></h1>
+                        <p className="Title" >CARPOOL 2021<a href=""><img className="logo" src="https://www.darwinchambers.com/wp-content/uploads/demo-img.jpg" alt="" /></a></p>
                     </div>
                 </div>
             </div>
