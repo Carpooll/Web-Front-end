@@ -41,11 +41,13 @@
 .Offer__text_driver{
      text-align: right;
      z-index: 3;
+     
 }
 /* Passenger */
 .Background__img_passenger{
-    background-image: url('https://i.imgur.com/q21NJ2F.jpeg');
-    width: 100%;
+    background-image: url('https://i.imgur.com/LnHvz4k.jpeg');
+    top: -15% !important;
+    left: -5% !important;
     display: flex;
     align-items: center;
     justify-content: center;
