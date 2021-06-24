@@ -6,7 +6,7 @@ class Navbar extends React.Component {
     render() {
         return(
             <React.Fragment>
-                <nav id="navbar" class="navbar Navbar navbar-expand-lg navbar-light  fixed-top">
+                <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
                     <div className="Navbar__img navbar-brand">
                         <Link to="/">
                             <img src="https://www.darwinchambers.com/wp-content/uploads/demo-img.jpg" alt="logo" />
@@ -18,16 +18,13 @@ class Navbar extends React.Component {
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse Navbar__elements" id="">
-                        <ul class="navbar-nav mr-auto nav-pills ">
-                            <li class="nav-item Navbar__element">
-                                <a class="nav-link" href="#fat">Home </a>
+                    <div class="collapse navbar-collapse Navbar__elements" id="navbarSupportedContent">
+                        <ul class="navbar-nav nav-pills ml-auto">
+                            <li class="Navbar__element">
+                                <a class="nav-link" href="#what_we_offer">What we offer </a>
                             </li>
-                            <li class="nav-item Navbar__element">
+                            <li class="Navbar__element ">
                                 <a class="nav-link" href="#mdo">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#">Disabled</a>
                             </li>
                         </ul>
                     </div>
