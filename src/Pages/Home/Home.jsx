@@ -1,68 +1,36 @@
 import React from "react";
 import "./Home.css";
-import Carousel from 'react-bootstrap/Carousel';
+import Carousel from "react-bootstrap/Carousel";
 
-class Home extends React.Component{
-    render(){
-        return(
-            <React.Fragment>
-                <div className="all_c">
-                    <div className="Carru">
-                        <Carousel>
-                            <Carousel.Item>
-                                
-                                <div className="imagen_c" style={{height: "70vh"}}>
-                                    <img
-                                        src="https://i.pinimg.com/originals/07/b5/5e/07b55e4038516321f44d458c9eaf3a3c.jpg"
-                                        alt="First slide"
-                                    />
-                                </div>
-                                <Carousel.Caption>
-                                        <h3>First slide label</h3>
-                                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            
-                                </Carousel.Caption>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <div className="imagen_c" style={{height: "70vh"}}>
-                                    <img
-                                       
-                                        src="https://wallpaperaccess.com/full/3097725.jpg"
-                                        alt="Second slide"
-                                    />
-                                </div>
-                                <Carousel.Caption>
-                                    <h3>Second slide label</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                </Carousel.Caption>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <div className="imagen_c" style={{height: "70vh"}}>
-                                    <img
-                                        
-                                        src="https://wallpaperaccess.com/full/723583.jpg"
-                                        alt="Third slide"
-                                    />
-                                </div>
-                                <Carousel.Caption>
-                                    <h3>Third slide label</h3>
-                                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                                </Carousel.Caption>
-                            </Carousel.Item>
-                        </Carousel>
-                    </div>  
-                </div>
-                <div className="title_1">
-                    <div className="card mt-10">
-                        <div className="card-header">
-                            <h1>Title</h1>
-                        </div>
-                        <p>mucho texto xd</p>
-                    </div>
-                </div>
-            </React.Fragment>
-        )
-    }
+class Home extends React.Component {
+  render() {
+    return (
+      <React.Fragment>
+        <div className="container-fluid Background__img_home text-white ">
+        </div>
+        <div className="container">
+            <h1 className="title mt-3">CARPOOL</h1>
+          <div className="row">
+            <div className="col">
+              <p className="text mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem magnam dolorem eaque dolore obcaecati quibusdam
+                nobis qui omnis, fuga culpa voluptate quos nulla at libero
+                nostrum suscipit asperiores ducimus tempora?Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Dolor maiores nihil fuga
+                hic voluptates, doloribus aliquam architecto dolores error
+                beatae consectetur, nostrum accusamus laborum expedita, soluta
+                aliquid nam at. Omnis?Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Labore odio nobis, consequatur autem dolorum
+                aperiam pariatur earum, blanditiis ea nostrum animi qui
+                reprehenderit optio voluptatem ex vitae esse. Sunt, aut!
+              </p>
+            </div>
+          </div>
+        </div>
+      </React.Fragment>
+    );
+  }
 }
 
 export default Home;
