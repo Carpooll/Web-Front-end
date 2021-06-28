@@ -80,7 +80,7 @@ h2 {
 }
 
 .card:nth-child(1) .face.face2 {
-  background: black;
+  background: #00AFB9;
 }
 
 .card:nth-child(2) .face.face2 {
