@@ -13,7 +13,6 @@ class Main extends React.Component {
                 <Whatweoffer></Whatweoffer>
                 <About></About>
                 <Contact></Contact>
-                
             </React.Fragment>
         )
     }
