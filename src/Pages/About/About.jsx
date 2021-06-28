@@ -19,7 +19,7 @@ class About extends React.Component{
                                         </div>
                                     </div>
                                     <div className="face face2">
-                                        <h2>Us </h2>
+                                        <h2 className="u">Us </h2>
                                     </div>
                                 </div>
 
@@ -30,11 +30,11 @@ class About extends React.Component{
                                         <div className="content">
                                         <span className="stars"></span>
                                         <h2 className="mission">Mission</h2>
-                                        <p className="mission">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis omnis quis repellendus ad impedit deleniti. Iste necessitatibus nihil ab adipisci eaque maxime impedit veniam. Placeat voluptas praesentium esse eligendi repellendus!</p>
+                                        <p className="mission">Lorem ipsum dolor sit amet consectis quis repellendus ad impedit deleniti. Iste necessitatibus nihil ab adipisci eaque maxime impedit veniam. Placeat voluptas praesentium esse eligendi repellendus!</p>
                                         </div>
                                     </div>
                                     <div className="face face2">
-                                        <h2>Mission</h2>
+                                        <h2 className="m">Mission</h2>
                                     </div>
                                 </div>
 
@@ -45,11 +45,11 @@ class About extends React.Component{
                                         <div className="content">
                                         <span className="stars"></span>
                                         <h2 className="vision">Vision</h2>
-                                        <p className="vision">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati possimus ducimus corporis aliquam atque labore quibusdam accusamus necessitatibus quod ea numquam saepe inventore, perspiciatis itaque voluptate fugiat expedita provident laboriosam.</p>
+                                        <p className="vision">Lorem ipsum doladipisicing elit. labore quibusdam accusamus necessitatibus quod ea numquam saepe inventore, perspiciatis itaque voluptate fugiat expedita provident laboriosam.</p>
                                         </div>
                                     </div>
                                     <div className="face face2">
-                                        <h2>Vision</h2>
+                                        <h2 className="v">Vision</h2>
                                     </div>
                                 </div>
                             </div>

@@ -1,16 +1,4 @@
-/* body:before{
-  filter: blur(1px);
-  content: "";
-  position: absolute;
-  height: 20%; 
-  width: 20%;
-  background-size:cover;
-  -webkit-transform: scale(5);
-  -webkit-transform-origin: top left;
-  background-image: url("https://images.pexels.com/photos/1044329/pexels-photo-1044329.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") ;
-  
 
-} */
 .backimage{
   filter: blur(1px);
   content: "";
@@ -25,7 +13,7 @@
 }
 
 .abs-container{
-  display:inline;
+  display:flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
@@ -47,6 +35,7 @@
   border: 15px !important;
   margin-bottom: 3%;
   margin-top: 3%;
+  
 }
 .face {
   position: absolute;
@@ -58,10 +47,13 @@
   border-radius: 15px;
   justify-content: center;
   align-items: center;
+  
 }
 .face1 {
   box-sizing: border-box;
   padding: 20px;
+  color: white;
+  
 }
 
 .about, .mission, .vision{
@@ -76,7 +68,6 @@
 h2 {
   margin: 0;
   padding: 0;
-  color: #fff;
   transition: 0.5s;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   z-index: 10;
@@ -99,4 +90,7 @@ h2 {
 
 .card:nth-child(3) .face.face2 {
   background: black;
+}
+.m, .v, .u{
+  color: white;
 }
