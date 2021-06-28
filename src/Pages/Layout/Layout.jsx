@@ -10,7 +10,7 @@ function Layout(props){
             <div className="Layout" data-spy="scroll" data-target="#navbar" data-offset="0">
                 {props.children}
             </div>
-            <Footer></Footer>
+         
         </React.Fragment>
     );
 }

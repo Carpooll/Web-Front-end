@@ -1,5 +1,6 @@
 import React from 'react';
 import './Contact.css';
+import Footer from '../../Components/Footer/Footer'
 
 class Contact extends React.Component {
     render() {
@@ -47,6 +48,10 @@ class Contact extends React.Component {
                         </div>
                     </div>
                 </div>
+                    <div className="Container__footer">
+                        <Footer></Footer>
+                    </div>
+
             </React.Fragment>
         )
     }

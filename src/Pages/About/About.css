@@ -13,7 +13,7 @@
 }
 
 .abs-container{
-  display:flex;
+  display:inline;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
