@@ -11,8 +11,8 @@ class About extends React.Component {
               <h1>About us</h1>
             </div>
             <div className="row">
-              <div className="col-lg-4 center">
-                <div className="card Card">
+              <div className="col-md-4 center">
+                <div className="card Card card-about">
                   <div className="face face1">
                     <div className="content">
                       <h2 className="about">Us</h2>
@@ -31,7 +31,7 @@ class About extends React.Component {
                 </div>
               </div>
               <div className="col-lg-4 center">
-                <div className="card Card">
+                <div className="card Card card-mission">
                   <div className="face face1">
                     <div className="content">
                       <span className="stars"></span>
@@ -50,7 +50,7 @@ class About extends React.Component {
                 </div>
               </div>
               <div className="col-lg-4 center">
-                <div className="card Card">
+                <div className="card Card card-vision">
                   <div className="face face1">
                     <div className="content">
                       <span className="stars"></span>
