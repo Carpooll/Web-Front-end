@@ -1,5 +1,31 @@
-.main_container, .abs-container{
-  margin-bottom: 20%;
+@media (max-width: 600px) {
+  .main_container, .abs-container{
+    margin-bottom: 50%;
+  }
+  .About__header{
+    display: flex;
+    justify-content: center;
+    column-span:all;
+    margin:auto;
+    text-align:center;
+    margin-top: 40%;
+    margin-bottom: -20%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .main_container, .abs-container{
+    margin-bottom: 15%;
+  }
+  .About__header{
+    display: flex;
+    justify-content: center;
+    column-span:all;
+    margin:auto;
+    text-align:center;
+    margin-top: 15%;
+    margin-bottom: -20%;
+  }
 }
 
 .center{
@@ -77,16 +103,6 @@ h2 {
 }
 .m, .v, .u{
   color: white;
-}
-
-.About__header{
-  display: flex;
-  justify-content: center;
-  column-span:all;
-  margin:auto;
-  text-align:center;
-  margin-top: 10%;
-  margin-bottom: -10%;
 }
 
 .About__header h1{
