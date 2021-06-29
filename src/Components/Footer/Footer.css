@@ -1,20 +1,21 @@
 .Box {
-  padding: 20px;
-  background: #0081A7;
-  /* position: sticky;
-  position: -webkit-sticky; */
+  bottom: 0;
   width: 100%;
-  text-align: center;
-  z-index: 1000;
+  /* Set the fixed height of the footer here */
+  height: 100%;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #0081A7;
 }
 
 .Title{
   color: #ffffff;
 }
+
 .Container{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   max-width: 1000px;
   margin: 0 auto;
   background-color: #0081A7;
@@ -26,6 +27,7 @@
   margin-bottom: 10px;
   text-decoration: none;
 }
+
 .FooterLink:hover{
   color: #004E66;
   transition: 200ms ease-in;

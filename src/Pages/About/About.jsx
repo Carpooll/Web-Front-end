@@ -5,8 +5,11 @@ class About extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container-fluid main_container">
+        <div className="container-fluid main_container" id="about">
           <div className="container abs-container">
+            <div className="About__header">
+              <h1>About us</h1>
+            </div>
             <div className="row">
               <div className="col-lg-4 center">
                 <div className="card Card">
