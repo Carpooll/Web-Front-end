@@ -1,29 +1,15 @@
-.backimage{
-  filter: blur(1px);
-  content: "";
-  position: absolute;
-  height: 20%; 
-  width: 20%;
-  background-size:cover;
-  -webkit-transform: scale(5);
-  -webkit-transform-origin: top left;
-  background-image: url("https://images.pexels.com/photos/1044329/pexels-photo-1044329.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") ;
-  
+.main_container, .abs-container{
+  background-color: rgb(170, 219, 235);
 }
 
-.abs-container{
-  display:inline;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  min-width: 100vh;
-}
 .center{
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: auto;
   margin-right:auto ;
+  margin-top: 25%;
+  margin-bottom: 25%;
 }
 
 .Card {
@@ -72,7 +58,6 @@ h2 {
   z-index: 10;
   
 }
-
 
 .card:hover .face.face2 {
   height: 60px;
