@@ -6,37 +6,21 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    height: 50vh;
+    height: 60vh;
     z-index: 1;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(0.2);
-   
+
    }
 
-.btn_driver{
-    top: 50%;
-    left: 50%;
-    background-color:#F07167;
-    color: white;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    z-index: 4;
-}
-
-.btn_driver:hover{
-    background-color:#FDC087;
-}
 
 .Offer__text_driver{
      text-align: right;
      z-index: 3;   
+
 }
-
-
 
 /* Passenger */
 .Background__img_passenger{
@@ -47,17 +31,22 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    height: 50vh;
+    height: 60vh;
     z-index: 1;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(0.2);
+    padding-bottom: auto; 
     
-   
    }
 
-.btn_passenger{
+   .Offer__text_passenger{
+       text-align: left;
+       z-index: 3;
+   }
+
+.btn_whatweoffer{
     top: 50%;
     left: 50%;
     background-color:#F07167;
@@ -69,11 +58,8 @@
     z-index: 4;
 }    
 
-.btn_passenger:hover{
+.btn_whatweoffer:hover{
     background-color:#FDC087;
 }    
 
-.Offer__text_passenger{
-    text-align: left;
-    z-index: 3;
-}
+
