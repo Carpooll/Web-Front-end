@@ -1,65 +1,72 @@
 /* Driver */
-.Background__img_driver{
-    background-image: url('https://i.imgur.com/6MfzgJ3.jpeg');
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    height: 60vh;
-    z-index: 1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: grayscale(0.2);
+.Background__img_driver {
+  background-image: url("https://i.imgur.com/6MfzgJ3.jpeg");
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+  z-index: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(0.2);
+}
 
-   }
-
-
-.Offer__text_driver{
-     text-align: right;
-     z-index: 3;   
-
+.Offer__text_driver {
+  text-align: right;
+  z-index: 3;
+  margin-right: 20px;
 }
 
 /* Passenger */
-.Background__img_passenger{
-    background-image: url('https://i.imgur.com/LnHvz4k.jpeg');
-    top: -15% !important;
-    left: -5% !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+.Background__img_passenger {
+  background-image: url("https://i.imgur.com/LnHvz4k.jpeg");
+  top: -15% !important;
+  left: -5% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(0.2);
+  padding-bottom: auto;
+}
+
+.Offer__text_passenger {
+  text-align: left;
+  z-index: 3;
+  margin-left: 20px;
+}
+
+.btn_whatweoffer {
+  top: 50%;
+  left: 50%;
+  background-color: #f07167;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 4;
+}
+
+.btn_whatweoffer:hover {
+  background-color: #fdc087;
+}
+
+@media (max-width: 600px) {
+  .Background__img {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1000px) {
+  .Background__img {
     height: 60vh;
-    z-index: 1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: grayscale(0.2);
-    padding-bottom: auto; 
-    
-   }
-
-   .Offer__text_passenger{
-       text-align: left;
-       z-index: 3;
-   }
-
-.btn_whatweoffer{
-    top: 50%;
-    left: 50%;
-    background-color:#F07167;
-    color: white;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    z-index: 4;
-}    
-
-.btn_whatweoffer:hover{
-    background-color:#FDC087;
-}    
-
-
+  }
+}
