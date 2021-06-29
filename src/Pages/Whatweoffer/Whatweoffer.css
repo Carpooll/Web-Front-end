@@ -35,9 +35,7 @@
      text-align: right;
      z-index: 3;   
 }
-.Offer__text_driver p{
-    font-size: 15px; 
-}
+
 
 
 /* Passenger */
@@ -78,7 +76,4 @@
 .Offer__text_passenger{
     text-align: left;
     z-index: 3;
-}
-.Offer__text_passenger p{
-    font-size: 15px;
 }
