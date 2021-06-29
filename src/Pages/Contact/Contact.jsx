@@ -15,7 +15,6 @@ class Contact extends React.Component {
                       <h1>Talk with us!</h1>
                     </div>
                   </div>
-
                   <div className="row">
                     <div className="col-sm-4">
                       <div className="Contact__img">
