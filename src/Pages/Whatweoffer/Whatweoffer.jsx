@@ -5,7 +5,7 @@ class OfferSection extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container-fluid ">
+        <div className="container-fluid " id="whatweoffer">
           <div className="container ">
             <div className="container-fluid Background__img Background__img_driver text-white">
        

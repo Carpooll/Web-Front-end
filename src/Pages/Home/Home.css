@@ -5,9 +5,11 @@
    }
 .text{
     text-align: justify;
+    padding-bottom: 30px;
 }
 .title{
     font-weight: bold;
     font-size: 400%;
     font-style: initial;
+    padding-top: 30px !important;
 }
