@@ -7,7 +7,7 @@ class About extends React.Component{
         return(
             <React.Fragment>
                 <div className="backimage"></div>
-                <div className="container-fluid">
+                <div className="container-fluid" id="about">
                     <div className="abs-container">
                         <div className="row">
                             <div className="col-lg-4 center">

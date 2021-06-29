@@ -5,7 +5,7 @@ class Contact extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="Contact__background">
+        <div className="Contact__background" id="contact">
           <div className="Color_filter">
             <div className="mt-5">
               <div className="container-fluid">

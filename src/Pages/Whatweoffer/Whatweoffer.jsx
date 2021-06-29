@@ -5,7 +5,7 @@ class OfferSection extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container-fluid Background__img_driver text-white ">
+        <div className="container-fluid Background__img_driver text-white " id="whatweoffer">
           <div className="Color_filter_driver"></div>
           <div className="row">
             <div className="col-lg-4 col-sm-2"></div>
