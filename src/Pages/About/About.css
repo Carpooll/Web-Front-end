@@ -27,7 +27,6 @@
     margin-bottom: -20%;
   }
 }
-
 .center{
   display: flex;
   align-items: center;
@@ -39,13 +38,14 @@
 }
 
 .Card {
-  width: 300px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   border-radius: 15px !important;
   border-color: black !important;
   border: 15px !important;
   margin-bottom: 3%;
   margin-top: 3%;
+  box-shadow: 4px 4px 7px #999;
   
 }
 .face {
@@ -84,6 +84,7 @@ h2 {
   z-index: 10;
   
 }
+
 
 .card:hover .face.face2 {
   height: 60px;
