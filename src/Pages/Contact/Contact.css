@@ -44,3 +44,12 @@
 .Contact__header h1{
     color:white;
 }
+
+.Container__footer{
+    /* bottom: 0 !important;
+    position: relative !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important; */
+    
+}

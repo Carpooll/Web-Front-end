@@ -3,6 +3,7 @@ import Home from "../Home/Home"
 import Whatweoffer from "../Whatweoffer/Whatweoffer"
 import About from "../About/About"
 import Contact from "../Contact/Contact"
+import Footer from '../../Components/Footer/Footer'
 
 class Main extends React.Component {
     render(){
