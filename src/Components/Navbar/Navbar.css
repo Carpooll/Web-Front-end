@@ -4,11 +4,9 @@
   position: absolute;
   z-index: 2;
 } */
-.navbar-logo{
-  width: 9vh;
-}
+
 .navbar {
-  background-color: #0080a72f !important;
+  background-color: #0080a74f !important;
 }
 
 .Navbar__content{
@@ -80,3 +78,18 @@
   text-align:justify;
 }
 
+
+
+@media (max-width: 600px) {
+  .navbar-logo{
+    width: 18vh;
+    
+  }
+}
+
+@media (min-width: 1000px) {
+  .navbar-logo{
+    width: 11vh;
+    margin-left: 25px;
+  }
+}

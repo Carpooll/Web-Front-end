@@ -51,7 +51,7 @@ const Footer = () => {
 
                             </div>
                             <div className="col-lg-3 mt-3">
-                                <p className="Title" >CARPOOL 2021<a href=""><img className="logo" src="https://www.darwinchambers.com/wp-content/uploads/demo-img.jpg" alt="" /></a></p>
+                               <img className="logo" src="https://i.imgur.com/hHhjKaM.png" alt="" />
                             </div>
                         </div>
                     </div>

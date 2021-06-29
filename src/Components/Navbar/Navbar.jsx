@@ -9,7 +9,7 @@ class Navbar extends React.Component {
                
                 <nav className="navbar navbar-expand-lg navbar-light fixed-top">
                         <Link to="/">
-                          <img className="navbar-logo" src="https://www.darwinchambers.com/wp-content/uploads/demo-img.jpg" alt="logo" />
+                          <img className="navbar-logo" src="https://i.imgur.com/hHhjKaM.png" alt="logo" />
                         </Link>
                   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
