@@ -9,8 +9,8 @@ class Security extends React.Component {
         <div className="container-fluid">
           <div className="container">
             <div className="top">
-              <h1>security</h1>
-              <img src="https://i.imgur.com/Cg7sMu5.png" alt="cab"/>
+              <h1 className="title">security</h1>
+              <img className="image" src="https://i.imgur.com/Cg7sMu5.png" alt="cab"/>
             </div>
 
             <div className="text-gp">
