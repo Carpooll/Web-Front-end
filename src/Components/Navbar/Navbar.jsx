@@ -28,7 +28,7 @@ class Navbar extends React.Component {
           <div className="collapse navbar-collapse" id="navbarText">
             <ul className="navbar-nav ml-auto">
               <li className="Navbar__element">
-                <a className="nav-link text-white" href="#home">
+                <a className="nav-link text-white" href="/">
                   Home
                 </a>
               </li>

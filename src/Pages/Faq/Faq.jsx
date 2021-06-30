@@ -9,7 +9,7 @@ class Faq extends React.Component {
 
                     <div className="container">
                         <div className="row m-top">
-                            <div className="col">
+                            <div className="col-lg-6 col-sm-12">
                                 <div id="accordion">
                                     <div className="card mb-2">
                                         <div className="card-header inx" id="headingOne">
@@ -57,7 +57,7 @@ class Faq extends React.Component {
                                 </div>
                             </div>
 
-                            <div className="col">
+                            <div className="col-lg-6 col-sm-12">
                                 <div id="accordion2">
                                     <div className="card mb-2">
                                         <div className="card-header inx" id="headingFour">

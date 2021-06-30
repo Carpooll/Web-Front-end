@@ -82,6 +82,7 @@
 
 @media (max-width: 699px) {
   .navbar-logo{
+    margin-top: 11px;
     width: 18vh;
     
   }
@@ -89,6 +90,7 @@
 
 @media (min-width: 700px) {
   .navbar-logo{
+    margin-top: 11px;
     width: 11vh;
     margin-left: 25px;
   }
