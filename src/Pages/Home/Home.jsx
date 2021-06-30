@@ -9,10 +9,10 @@ class Home extends React.Component {
         <div className="container ">
           <img
             className="Background__img_home"
-            src="https://images.unsplash.com/photo-1511407397940-d57f68e81203?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=967&q=80"
+            src="https://images.unsplash.com/photo-1518614768202-663a3a0ecf59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
           />
+          <h1 className="title">CARPOOL</h1>
           <div className="container">
-          <h1 className="title mt-3">CARPOOL</h1>
          
               <p className="text mt-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
