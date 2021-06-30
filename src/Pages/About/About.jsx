@@ -11,7 +11,7 @@ class About extends React.Component {
               <h1>About us</h1>
             </div>
             <div className="row">
-              <div className="col-md-4 center">
+              <div className="col-lg-4 center">
                 <div className="card Card card-about">
                   <div className="face face1">
                     <div className="content">

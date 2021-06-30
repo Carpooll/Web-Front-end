@@ -59,13 +59,13 @@
   background-color: #fdc087;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 699px) {
   .Background__img {
     height: 100vh;
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .Background__img {
     height: 60vh;
   }

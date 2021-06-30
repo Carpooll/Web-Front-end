@@ -80,14 +80,14 @@
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 699px) {
   .navbar-logo{
     width: 18vh;
     
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .navbar-logo{
     width: 11vh;
     margin-left: 25px;

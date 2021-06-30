@@ -39,7 +39,7 @@
   margin-top: -4px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 899px) {
   .logo{
     width: 50%;
     height: 80%;
@@ -47,7 +47,7 @@
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   .logo{
     width: 80%;
     height: 50%;

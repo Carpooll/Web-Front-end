@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 699px) {
   .main_container, .abs-container{
     margin-bottom: 50%;
   }
@@ -13,7 +13,7 @@
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .main_container, .abs-container{
     margin-bottom: 15%;
   }
