@@ -1,17 +1,14 @@
 @media (max-width: 600px) {
     .Background__img_home{
-        margin-top: 20%;
         width: 100%;
        }
   }
   
   @media (min-width: 1000px) {
     .Background__img_home{
-        margin-top: 8%;
         width: 100%;
        }
   }
-
 
 .text{
     text-align: justify;
