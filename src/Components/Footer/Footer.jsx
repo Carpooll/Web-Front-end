@@ -45,14 +45,14 @@ const Footer = () => {
                 <ul class="list-unstyled mb-0">
                   <li>
                     <Link to="/security">
-                      <a href="#" className="text-white FooterLink">
+                      <a href="security" className="text-white FooterLink">
                         Security
                       </a>
                     </Link>
                   </li>
                   <li>
                     <Link to="/faq">
-                      <a href="#" className="text-white FooterLink">
+                      <a href="faq" className="text-white FooterLink">
                         FAQ
                       </a>
                     </Link>
@@ -61,7 +61,7 @@ const Footer = () => {
               </div>
               <div className="col-lg-2 mt-3">
                 <Link to="/">
-                  <a className="FooterLink" href="FooterLink">
+                  <a className="FooterLink" href="https://www.facebook.com/Carpool-103828968611686">
                     <img
                       className="img"
                       src="https://i.imgur.com/DQ8kHdT.png"
@@ -70,7 +70,7 @@ const Footer = () => {
                   </a>
                 </Link>
                 <Link to="/">
-                  <a className="FooterLink" href="FooterLink">
+                  <a className="FooterLink" href="https://www.instagram.com/carpoolapp/?hl=es-la">
                     <img
                       className="img"
                       src="https://i.imgur.com/Iydxei0.png"
