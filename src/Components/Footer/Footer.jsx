@@ -19,7 +19,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link to="/terms-conditions">
                       <a href="#" className="text-white FooterLink">
                         Terms and conditions
                       </a>
