@@ -12,14 +12,14 @@ const Footer = () => {
               <div className="col-lg-3">
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <Link to="/">
+                    <Link to="/legal-notices">
                       <a href="#" className="text-white FooterLink">
                         Legal notices
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link to="/terms-conditions">
                       <a href="#" className="text-white FooterLink">
                         Terms and conditions
                       </a>

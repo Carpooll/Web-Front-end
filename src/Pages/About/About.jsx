@@ -17,11 +17,7 @@ class About extends React.Component {
                     <div className="content">
                       <h2 className="about">Us</h2>
                       <p className="about">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Perferendis asperiores quae velit nam, maiores
-                        fugit sunt adipisci eligendi debitis sapiente, dolorem
-                        aperiam ratione possimus? Nisi quam repellat eligendi
-                        aliquid ad.
+                      We are a company made up of young students aware of the difficulty of transferring to school destinations, offering a comfortable and technological solution.
                       </p>
                     </div>
                   </div>
@@ -37,10 +33,7 @@ class About extends React.Component {
                       <span className="stars"></span>
                       <h2 className="mission">Mission</h2>
                       <p className="mission">
-                        Lorem ipsum dolor sit amet consectis quis repellendus ad
-                        impedit deleniti. Iste necessitatibus nihil ab adipisci
-                        eaque maxime impedit veniam. Placeat voluptas
-                        praesentium esse eligendi repellendus!
+                      Provide an efficient, intelligent, and comfortable service for young students.
                       </p>
                     </div>
                   </div>
@@ -56,10 +49,7 @@ class About extends React.Component {
                       <span className="stars"></span>
                       <h2 className="vision">Vision</h2>
                       <p className="vision">
-                        Lorem ipsum doladipisicing elit. labore quibusdam
-                        accusamus necessitatibus quod ea numquam saepe
-                        inventore, perspiciatis itaque voluptate fugiat expedita
-                        provident laboriosam.
+                      Have greater reach in cars and students everywhere, creating a pleasant environment and support and economic support for student drivers as passengers with personalized technology at an affordable price.
                       </p>
                     </div>
                   </div>

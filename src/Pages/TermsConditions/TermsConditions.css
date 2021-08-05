@@ -1,0 +1,22 @@
+@media (max-width: 699px) {
+    .Background__img_home{
+        width: 100%;
+       }
+  }
+  
+  @media (min-width: 700px) {
+    .Background__img_home{
+        width: 100%;
+       }
+  }
+
+.text{
+    text-align: justify;
+    padding-bottom: 30px;
+}
+.title{
+    font-weight: bold;
+    font-size: 400%;
+    font-style: initial;
+    padding-top: 30px !important;
+}
