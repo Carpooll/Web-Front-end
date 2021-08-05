@@ -1,0 +1,112 @@
+@media (max-width: 699px) {
+  .main_container, .abs-container{
+    margin-bottom: 50%;
+  }
+  .About__header{
+    display: flex;
+    justify-content: center;
+    column-span:all;
+    margin:auto;
+    text-align:center;
+    margin-top: 40%;
+    margin-bottom: -20%;
+  }
+}
+
+@media (min-width: 700px) {
+  .main_container, .abs-container{
+    margin-bottom: 15%;
+  }
+  .About__header{
+    display: flex;
+    justify-content: center;
+    column-span:all;
+    margin:auto;
+    text-align:center;
+    margin-top: 15%;
+    margin-bottom: -20%;
+  }
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right:auto ;
+  margin-top: 25%;
+  
+}
+
+.Card {
+  width: 500px;
+  height: 500px;
+  border-radius: 15px !important;
+  border-color: black !important;
+  border: 15px !important;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  box-shadow: 4px 4px 7px #999;
+  
+}
+.face {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.face1 {
+  box-sizing: border-box;
+  padding: 20px;
+  color: white;
+  background-color: rgba(204, 238, 248, 0.924);
+}
+
+.about, .mission, .vision{
+  color: black;
+  text-align: center;
+}
+
+.face2 {
+  transition: 0.5s;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  transition: 0.5s;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  
+}
+
+
+.card:hover .face.face2 {
+  height: 60px;
+}
+
+.card:nth-child(1) .face.face2 {
+  background: #00AFB9;
+}
+
+.card:nth-child(2) .face.face2 {
+  background: black;
+  
+}
+
+.card:nth-child(3) .face.face2 {
+  background: black;
+}
+.m, .v, .u{
+  color: white;
+}
+
+.About__header h1{
+  color:black !important;
+
+}
