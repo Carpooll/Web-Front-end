@@ -2,7 +2,7 @@
   "name": "webfront",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://SofiaGonzaloC.github.io/carpool-test",
+  "homepage": "https://SofiaGonzaloC.github.io/carpool-test",
   "dependencies": {
     "@babel/core": "^7.13.0",
     "@testing-library/jest-dom": "^5.13.0",
@@ -23,7 +23,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-deploy -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
