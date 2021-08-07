@@ -48,14 +48,18 @@ class Navbar extends React.Component {
                 </a>
               </li>
               <li class="Navbar__element ">
-                <a class="nav-link text-white" href="security">
-                  Security
-                </a>
+                <Link to="/security">
+                  <a class="nav-link text-white" href="#">
+                    Security
+                  </a>
+                </Link>
               </li>
               <li class="Navbar__element ">
-                <a class="nav-link text-white" href="faq">
-                  FAQ
-                </a>
+                <Link to="/faq">
+                  <a class="nav-link text-white" href="#">
+                    PRUEBA1
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>

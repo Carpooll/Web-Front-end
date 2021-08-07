@@ -15,22 +15,22 @@ import './App.css';
 
 function App() {
   return ( 
-  <BrowserRouter>
+  <HashRouter>
     <Layout>
       <Switch>
-        <Route exact path="./" component={Main}></Route>
-        <Route exact path="/home" component={Home}></Route>
-        <Route exact path="/faq" component={Faq}></Route>
+        <Route exact path="/" component={Main}></Route>
+        <Route exact path="/" component={Home}></Route>
+        <Route exact path="#/faq" component={Faq}></Route>
         <Route exact path="/whatweoffer" component={OfferSection}></Route>
         <Route exact path="/about" component={About}></Route>
         <Route exact path="/contact" component={Contact}></Route>
-        <Route exact path="/security" component={Security}></Route>
+        <Route exact path="#/security" component={Security}></Route>
         <Route exact path="/legal-notices" component={LegalNotices}></Route>
         <Route exact path="/terms-conditions" component={TermsConditions}></Route>
         <Route path="*" component={PageNotFound} ></Route>
       </Switch>
     </Layout>
-  </BrowserRouter>  
+  </HashRouter>  
 
 
   );

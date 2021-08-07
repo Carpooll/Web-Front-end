@@ -45,14 +45,14 @@ const Footer = () => {
                 <ul class="list-unstyled mb-0">
                   <li>
                     <Link to="/security">
-                      <a href="security" className="text-white FooterLink">
+                      <a href="#" className="text-white FooterLink">
                         Security
                       </a>
                     </Link>
                   </li>
                   <li>
                     <Link to="/faq">
-                      <a href="faq" className="text-white FooterLink">
+                      <a href="#" className="text-white FooterLink">
                         FAQ
                       </a>
                     </Link>
