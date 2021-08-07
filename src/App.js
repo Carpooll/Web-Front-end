@@ -15,7 +15,7 @@ import './App.css';
 
 function App() {
   return ( 
-  <HashRouter baseline="/">
+  <BrowserRouter>
     <Layout>
       <Switch>
         <Route exact path="./" component={Main}></Route>
@@ -30,7 +30,7 @@ function App() {
         <Route path="*" component={PageNotFound} ></Route>
       </Switch>
     </Layout>
-  </HashRouter>  
+  </BrowserRouter>  
 
 
   );
