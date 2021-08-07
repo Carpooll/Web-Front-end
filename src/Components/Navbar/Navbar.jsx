@@ -29,9 +29,11 @@ class Navbar extends React.Component {
           <div className="collapse navbar-collapse" id="navbarText">
             <ul className="navbar-nav ml-auto">
               <li className="Navbar__element">
-                <a className="nav-link text-white" href="#">
-                  Home
-                </a>
+                <Link to="/">
+                  <a className="nav-link text-white" href="#">
+                    Home
+                  </a>
+                </Link>
               </li>
               <li class="Navbar__element">
                 <a class="nav-link text-white" href="#whatweoffer">
@@ -50,7 +52,7 @@ class Navbar extends React.Component {
               </li>
               <li class="Navbar__element ">
                 <Link to="/security">
-                  <a class="nav-link text-white" href="#">
+                  <a class="nav-link text-white">
                     Security
                   </a>
                 </Link>
@@ -58,7 +60,7 @@ class Navbar extends React.Component {
               <li class="Navbar__element ">
                 <Link to="/faq">
                   <a class="nav-link text-white" href="#">
-                    PRUEBA2
+                    PRUEBA3
                   </a>
                 </Link>
               </li>
