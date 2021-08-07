@@ -58,7 +58,7 @@ class Navbar extends React.Component {
               <li class="Navbar__element ">
                 <Link to="/faq">
                   <a class="nav-link text-white" href="#">
-                    PRUEBA1
+                    PRUEBA2
                   </a>
                 </Link>
               </li>
