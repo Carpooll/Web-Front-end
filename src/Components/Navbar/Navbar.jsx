@@ -52,7 +52,7 @@ class Navbar extends React.Component {
               </li>
               <li class="Navbar__element ">
                 <Link to="/security">
-                  <a class="nav-link text-white">
+                  <a class="nav-link text-white" href="#">
                     Security
                   </a>
                 </Link>
