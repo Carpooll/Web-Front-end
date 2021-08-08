@@ -38,31 +38,37 @@ class Navbar extends React.Component {
                 </Link>
               </li>
               <li class="Navbar__element">
-                <a class="nav-link text-white" href="#whatweoffer">
-                  What we offer{" "}
-                </a>
+                <Link>
+                  <a class="nav-link text-white" href="#whatweoffer">
+                    What we offer{" "}
+                  </a>
+                </Link>
               </li>
               <li class="Navbar__element ">
-                <a class="nav-link text-white" href="#about">
-                  About
-                </a>
+                <Link>
+                  <a class="nav-link text-white" href="#about">
+                    About
+                  </a>
+                </Link>
               </li>
               <li class="Navbar__element ">
-                <a class="nav-link text-white" href="#contact">
-                  Contact
-                </a>
+                <Link>
+                  <a class="nav-link text-white" href="#contact">
+                    Contact
+                  </a>
+                </Link>
               </li>
               <li class="Navbar__element ">
                 <Link to="/security">
-                  <a class="nav-link text-white" href="#">
+                  <a class="nav-link text-white" href="#security">
                     Security
                   </a>
                 </Link>
               </li>
               <li class="Navbar__element ">
                 <Link to="/faq">
-                  <a class="nav-link text-white" href="#">
-                    PRUEBA
+                  <a class="nav-link text-white" href="#faq">
+                    FAQ
                   </a>
                 </Link>
               </li>
