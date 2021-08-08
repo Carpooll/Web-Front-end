@@ -7,13 +7,15 @@ class Navbar extends React.Component {
     return (
       <React.Fragment>
         <nav className="navbar navbar-expand-lg navbar-light fixed-top">
-          <a href="/" className="text-white FooterLink">
-            <img
-              className="navbar-logo"
-              src="https://i.imgur.com/hHhjKaM.png"
-              alt="logo"
-            />
-          </a>
+          <Link to="/">
+            <a href="/" className="text-white FooterLink">
+              <img
+                className="navbar-logo"
+                src="https://i.imgur.com/hHhjKaM.png"
+                alt="logo"
+              />
+            </a>
+          </Link>
 
           <button
             className="navbar-toggler"
