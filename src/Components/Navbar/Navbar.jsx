@@ -54,15 +54,15 @@ class Navbar extends React.Component {
               </li>
               <li class="Navbar__element ">
                 <Link to="/security">
-                  <p class="nav-link text-white">
+                  <a class="nav-link text-white" href="#">
                     Security
-                  </p>
+                  </a>
                 </Link>
               </li>
               <li class="Navbar__element ">
                 <Link to="/faq">
-                  <a class="nav-link text-white">
-                    PRUEBA5
+                  <a class="nav-link text-white" href="#">
+                    PRUEBA
                   </a>
                 </Link>
               </li>
