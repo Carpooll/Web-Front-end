@@ -38,21 +38,21 @@ class Navbar extends React.Component {
                 </Link>
               </li>
               <li class="Navbar__element">
-                <Link>
+                <Link to="/whatweoffer">
                   <a class="nav-link text-white" href="#whatweoffer">
                     What we offer{" "}
                   </a>
                 </Link>
               </li>
               <li class="Navbar__element ">
-                <Link>
+                <Link to="/about">
                   <a class="nav-link text-white" href="#about">
                     About
                   </a>
                 </Link>
               </li>
               <li class="Navbar__element ">
-                <Link>
+                <Link to="/contact">
                   <a class="nav-link text-white" href="#contact">
                     Contact
                   </a>
