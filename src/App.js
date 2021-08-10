@@ -11,6 +11,7 @@ import Security from "./Pages/Security/Security"
 import LegalNotices from "./Pages/LegalNotices/LegalNotices";
 import TermsConditions from "./Pages/TermsConditions/TermsConditions";
 import PageNotFound from "./Pages/404/404";
+import Welcome from "./Pages/Welcome/Welcome"
 import './App.css';
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
         <Route exact path="/security" component={Security}></Route>
         <Route exact path="/legal-notices" component={LegalNotices}></Route>
         <Route exact path="/terms-conditions" component={TermsConditions}></Route>
+        <Route exact path="/welcome" component={Welcome}></Route>
+
         <Route path="*" component={PageNotFound} ></Route>
       </Switch>
     </Layout>
